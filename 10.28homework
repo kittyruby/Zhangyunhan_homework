@@ -1,3 +1,4 @@
+//lv1
 package main
 
 import "fmt"
@@ -11,4 +12,24 @@ func main() {
 	num2 := 7
 	sum := add(num1, num2)
 	fmt.Println("Sum:", sum)
+}
+
+
+
+//lv2
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func calculateArea(radius float64) float64 {
+	return math.Pi * radius * radius
+}
+
+func main() {
+	radius := 5.0
+	area := calculateArea(radius)
+	fmt.Println("Area:", area)
 }
