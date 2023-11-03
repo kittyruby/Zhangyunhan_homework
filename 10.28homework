@@ -8,8 +8,8 @@ func add(x, y int) int {
 }
 
 func main() {
-	num1 := 5
-	num2 := 7
+	num1 := 1
+	num2 := 2
 	sum := add(num1, num2)
 	fmt.Println("Sum:", sum)
 }
@@ -58,7 +58,7 @@ func isPrime(num int) bool {
 }
 
 func main() {
-	number := 17
+	number := 13
 	if isPrime(number) {
 		fmt.Println(number, "is a prime number")
 	} else {
